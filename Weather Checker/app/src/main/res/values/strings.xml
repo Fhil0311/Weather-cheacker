@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="connectionFailed">Connection Failed! Please try again!</string>
+    <string name="code">Code</string>
+    <string name="bottom_navigation_history_title">History</string>
+    <string name="bottom_navigtaion_map_title">Google map</string>
+</resources>

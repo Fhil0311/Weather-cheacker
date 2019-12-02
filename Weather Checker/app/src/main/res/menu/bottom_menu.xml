@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/history_menu_item"
+       android:title="@string/bottom_navigation_history_title"
+        android:icon="@drawable/ic_history_white_24dp"
+        android:onClick="onHistoryItemClicked"
+        android:color="@color/colorPrimary"/>
+
+    <item android:id="@+id/map_menu_item"
+        android:title="@string/bottom_navigtaion_map_title"
+        android:icon="@drawable/ic_map_white_24dp"
+        android:onClick="onMapItemClicked"
+        android:color="@color/colorPrimary"/>
+
+    <item android:id="@+id/clearHistory_menu_item"
+        android:title=""
+        android:onClick="onMapItemClicked"
+        android:color="@color/colorPrimary"/>
+
+
+
+
+</menu>
